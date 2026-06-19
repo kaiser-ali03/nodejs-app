@@ -1,0 +1,19 @@
+{
+  "name": "SH-PROJECTS",
+  "description": "🌸 Free, Fast & Simple REST API Base Template with AI Integration, Canvas Generation & Auto Documentation - Perfect starter for your next API project",
+  "scripts": {
+    "dev": "nodemon ."
+  },
+  "keywords": [
+      "rest-api", "nodejs", "express", "api", "shiina", "luminai", "ai-integration", "canvas-generator", "image-generation", "web-scraping", "swagger", "auto-documentation", "free-api", "tools", "utilities", "balxzzy", "free-rest-api", "nodejs-api-base", "express-api-template", "free-api-service", "rest-api-starter", "api-base-template", "nodejs-backend-api", "free-json-api", "express-rest-boilerplate", "api-framework-nodejs", "ship-card", "text-generator", "hot-reload", "restful", "json-api", "backend", "server", "middleware", "routes", "endpoints", "cors", "axios", "chalk", "nodemon"
+  ],
+  "license": "MIT",
+  "author": "balxzzy",
+  "dependencies": {
+    "axios": "^1.9.0",
+    "chalk": "^4.1.2",
+    "express": "^5.1.0",
+    "nodemon": "^3.1.10",
+    "open": "^8.4.0"
+  }
+}

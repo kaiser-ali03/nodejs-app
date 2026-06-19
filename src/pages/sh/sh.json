@@ -1,0 +1,73 @@
+{
+  "name": "API - SH",
+  "version": "v1.0.0",
+  "description": "Simple and easy to use API.",
+  "bannerImage": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgWOZ8E_f1kcLhy8j-ka4GIw-FL_8oyXNPcAwIgXrgBHUia4p3paM8_KFyasXcZLqo_g3TQfe5Eg-0BS6hJPZzF2m2pvUuKEfwKP1sZvbu6_xTDelrlwl4G-MBKqhGppvMzsaZGGy8pMuCjSjdrFunk-y0Af1K6I0ldsb9FSY3ZFMI-isIePJo8_qNLT1c/s1600/1000396294.png",
+  "header": {
+    "status": "Online"
+  },
+  "apiSettings": {
+    "creator": "balxzzy"
+  },
+  "categories": [
+    {
+      "name": "AI",
+      "items": [
+        {
+          "name": "openai",
+          "desc": "ai with luminAI",
+          "path": "/api/ai",
+          "status": "Ready",
+          "example": "hello ai!",
+          "params": {
+            "text": "hi lumin"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Image Creator",
+      "items": [
+        {
+          "name": "Ship Card",
+          "desc": "nyocot.",
+          "path": "/api/canvas/welcome",
+          "status": "Ready",
+          "example": "No example provided",
+          "params": {}
+        }
+      ]
+    },
+    {
+      "name": "exmp",
+      "items": [
+        {
+          "name": "examples",
+          "desc": "hello wordl",
+          "path": "/example",
+          "status": "Ready",
+          "example": "hello world",
+          "params": {}
+        }
+      ]
+    },
+    {
+      "name": "TOOLS",
+      "items": [
+        {
+          "name": "saying",
+          "desc": "saying",
+          "path": "/api/tools/generate",
+          "status": "Ready",
+          "example": "No example provided",
+          "params": {
+            "text": "aku banga jadi jawa",
+            "url": "tes aja",
+            "size": "ngantuk",
+            "nama": "ikbal gntng"
+          }
+        }
+      ]
+    }
+  ]
+}

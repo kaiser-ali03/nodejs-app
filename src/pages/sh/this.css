@@ -1,0 +1,35 @@
+        body {
+            background-color: #f8f9fa;
+        }
+        .card {
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+        }
+        .section-title {
+            padding-bottom: 10px;
+            border-bottom: 3px solid #0d6efd;
+            display: inline-block;
+            margin-bottom: 2rem;
+        }
+        #apiResponseContent img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+            border: 1px solid #dee2e6;
+        }
+        #apiResponseContent pre {
+            background-color: #212529;
+            color: #f8f9fa;
+            padding: 15px;
+            border-radius: 5px;
+            white-space: pre-wrap;
+            word-wrap: break-word;
+        }
+        .json-key { color: #9cdcfe; }
+        .json-string { color: #ce9178; }
+        .json-number { color: #b5cea8; }
+        .json-boolean { color: #569cd6; }
+        .json-null { color: #569cd6; }

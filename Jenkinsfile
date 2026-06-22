@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     tools {
-        nodejs 'Nodejs-26'
+        nodejs 'nodejs-26'
     }
 
     stages {
